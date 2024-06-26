@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 500;
+    color:#EBDEDE;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+
+h1 span{
+    color: #64A527;
+    
+}
+
+.odd{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+
+.odd p {
+    color: #CBBDBD;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+.odd input {
+    background-color: #262626;
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 245px;
+    border-radius: 4px;
+    color: #CBBDBD;
+    font-size: 32px;
+    text-align: center;
+}
+
+.odd button {
+    background: linear-gradient(#97D55D, #4F6F30);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #0a0a0a;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    height: 46px;
+    width: 145px;
+}
+.odd button:hover {
+    transform: scale(1.05);
+    font-weight: 550;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    max-width: 100%;
+
+}
+.resultado p {
+    margin-top: 15px;
+    font-size: 32px;
+    color: #737373;
+    text-transform: uppercase;
+    text-align: center;
+}
+.resultado span {
+    color: #97D55D;
+    font-size: 36px;
+}
+
+.resultado h1 {
+    font-size: 42px;
+    color: #97D55D;
+    text-align: center;
+}
+ .resultado h2 {
+    color: #EBDEDE;
+    font-size: 32px;
+    text-align: center;
+ }
+
+ @media screen and (max-width: 846px){
+    h1{
+        font-size:56px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 846px) {
+    body {
+        transform: scale(0.7);
+    }
+    h1{
+        font-size:64px;
+        margin-top: 10px;
+        max-width: 100%;
+    }
+}
+ 
